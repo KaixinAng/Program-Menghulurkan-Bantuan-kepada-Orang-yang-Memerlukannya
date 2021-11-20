@@ -1,4 +1,8 @@
-ke_nombor_bank_akaun = str('Tolong  hantarkan kiriman wang anda ke RandomBank: 12-3456-78')
+#kod dibina oleh ANG KAI XIN
+#https://github.com/KaixinAng
+
+ke_nombor_bank_akaun = str('Tolong  hantarkan kiriman wang anda ke RandomBank: 12-3456-78') #boleh ditukarkan
+kata_laluan = str('angkaixin') #boleh ditukarkan
 
 def error():    #tunjukkan kesalahan ejaan supaya perisian jalan lancar tanpa ralat
     print ('Sila semak ejaan anda')
@@ -77,7 +81,6 @@ def minta_bantuan(): #maklumat peminta bantuan
 
 # jika pengguna pilih a
 def admin(): #jika pengguna merupakan admin
-    kata_laluan = str('angkaixin')
     pastikan = str(input('Masukkan kata laluan bagi admin.'))
     if  pastikan == kata_laluan:
         print('Selamat sejahtera. Apakah jenis maklumat yang ingin anda lihat? (Maklumat peminta[1] /  Maklumat pembantu[2]')
@@ -162,7 +165,7 @@ def hulur_bantuan():
   print('Izinkan saya menyatakan kesyukuran saya kepada tuan/puan sekali lagi')
   print('Tolong “stay safe” dalam masa ini!')
     
-########################
+#############################
 with open('info.txt',encoding='utf8') as f:
     for line in f:
         print(line.strip())
@@ -179,3 +182,6 @@ elif desicion  == ('q'):
     tamat()
 else:
     error()
+#############################
+#kod dibina oleh ANG KAI XIN
+#https://github.com/KaixinAng
