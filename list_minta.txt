@@ -1,0 +1,11 @@
+List pengguna yang memerlukan bantuan:
+==================================
+              1. Nama: ang
+              2. Umur: 12
+              3. Nombor IC: 12345678
+              4. Nombor telefon: 0254853
+              5. Email: angkaixin0706@gmail.com
+              6. Alamat: jalan ketam
+              7. Golongan: b30
+              8. Kesusahan: rumah saya dibanjiri :(
+              
