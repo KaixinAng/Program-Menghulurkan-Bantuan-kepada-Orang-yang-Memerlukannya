@@ -1,5 +1,6 @@
 #kod dibina oleh ANG KAI XIN
 #https://github.com/KaixinAng
+#angkaixin0706@gmail.com
 
 ke_nombor_bank_akaun = str('Tolong  hantarkan kiriman wang anda ke RandomBank: 12-3456-78') #boleh ditukarkan
 kata_laluan = str('angkaixin') #boleh ditukarkan
@@ -182,6 +183,8 @@ elif desicion  == ('q'):
     tamat()
 else:
     error()
+    
 #############################
 #kod dibina oleh ANG KAI XIN
 #https://github.com/KaixinAng
+#angkaixin0706@gmail.com
