@@ -8,3 +8,5 @@ Cara menggunakan kod atur cara ini:
 4. Variable seperti nombor bank akaun dan password boleh ditukar sendiri
 
 Tolong menggunakan program ini dan maklumat terkumpul dengan berhati-hati. Jangan bocor maklumat orang lain.
+
+slideshow ang: https://docs.google.com/presentation/d/1N5puOFZeHDkdOIsFVTtNt4RHH01MS-Wn9RRBckqvfcw/edit?usp=sharing
