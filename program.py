@@ -112,7 +112,7 @@ def admin(): #jika pengguna merupakan admin
             tambah = input('Ingin tambah maklumat? [ya/tidak]')
             if tambah == ('ya'):
               add = str(input('Tambahkan maklumat:'))
-              with open('list_minta.txt','a') as f:
+              with open('info.txt','a') as f:
                 f.write(add)
             elif tambah == ('tidak'):
               tamat()
