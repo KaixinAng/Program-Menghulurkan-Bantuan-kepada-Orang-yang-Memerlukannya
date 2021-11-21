@@ -28,7 +28,7 @@ def minta_bantuan_teks():
 
 def tolong_isi_maklumat(): #minta pengguna isi maklumat
   print('\n','Tolong isi maklumat anda.')
-  print('''Jangan risau, maklumat penting anda tidak akan terbocor. Kami hanya akan memberitahukan pembantu umur dan kesusahan anda.
+  print('\n','''Jangan risau, maklumat penting anda tidak akan terbocor. Kami hanya akan memberitahukan pembantu umur dan kesusahan anda.
 Nombor IC dan nama pula untuk memastikan bantuan kami disampaikan kepada anda.
 Sementara itu, untuk mengemaskini bilangan bantuan kita dapat  dari perisian ini dan juga memastikan tiada pengguna masukkan maklumat yang salah atau terulang.''','\n')
 
