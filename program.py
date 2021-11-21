@@ -109,7 +109,7 @@ def admin(): #jika pengguna merupakan admin
             with open('info.txt',encoding='utf8') as f:
               for line in f:
                 print(line.strip())
-            tambah = ('Ingin tambah maklumat? [ya/tidak]')
+            tambah = input('Ingin tambah maklumat? [ya/tidak]')
             if tambah == ('ya'):
               add = str(input('Tambahkan maklumat:'))
               with open('list_minta.txt','a') as f:
