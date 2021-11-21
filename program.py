@@ -71,11 +71,17 @@ def minta_bantuan(): #maklumat peminta bantuan
       f.write('''
               ''')
     jenis_bantuan = input('Sila pilih jenis bantuan anda hendak dapatkan: kewangan[1] / mental[2] / tenaga[3] / ketiga-tignya[4]')
-    if jenis_bantuan == ('1' or '4' ):
+    with open('list_minta.txt','a') as f:
+        f.write('''
+              Jenis Bantuan: ''')
+        f.write(jenis_bantuan)
+    if jenis_bantuan == ('1' or '4') :
         nombor_bank_akaun = input ('Nombor bank akaun: ') #nombor bank akaun hanya akan dimintakan jika pengguna ingin memberi sokongan kewangan
         with open('list_minta.txt','a') as f:
           f.write('''Nombor bank akuan: ''')
           f.write(nombor_bank_akaun)
+          f.write('''
+              ''')
     print('\n','Maklumat dikemaskinikan ke dalam sistem kami.')
     print('\n','Permohonan sedang dijalankan. Sila tunggu sehingga pihak kami balas keputusan permohonan anda.')
     print('\n','Tolong “stay safe” dalam masa ini!')
