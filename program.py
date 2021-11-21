@@ -150,6 +150,12 @@ def hulur_bantuan():
   minta_maklumat() 
   for a in range(0,4):
       jenis_bantuan = input('Sila pilih jenis bantuan boleh anda menghulurkan: kewangan[1] / mental[2] / tenaga[3] / tiada lagi [4]')
+      with open('list_minta.txt','a') as f:
+        f.write('''
+              Jenis Bantuan: ''')
+        f.write(jenis_bantuan)
+        f.write('''
+              ''')
       if jenis_bantuan == ('1'):
         print(ke_nombor_bank_akaun) #= input ('Nombor bank akaun: ') #nombor bank akaun hanya akan dimintakan jika pengguna ingin memberi sokongan kewangan
       else:
