@@ -7,4 +7,4 @@ Cara menggunakan kod atur cara ini:
 3. Maklumat yang dikumpul boleh dilihat dengan function admin dan file notepad
 4. Variable seperti nombor bank akaun dan password boleh ditukar sendiri
 
-Tolong menggunakan program ini dan maklumat terkumpul dengan berhati-hatinya. Jangan bocor maklumat orang lain.
+Tolong menggunakan program ini dan maklumat terkumpul dengan berhati-hati. Jangan bocor maklumat orang lain.
