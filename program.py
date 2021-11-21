@@ -156,7 +156,7 @@ def hulur_bantuan():
   minta_maklumat() 
   for a in range(0,4):
       jenis_bantuan = input('Sila pilih jenis bantuan boleh anda menghulurkan: kewangan[1] / mental[2] / tenaga[3] / tiada lagi [4]')
-      with open('list_minta.txt','a') as f:
+      with open('list_hulur.txt','a') as f:
         f.write('''
               Jenis Bantuan: ''')
         f.write(jenis_bantuan)
@@ -173,6 +173,9 @@ def hulur_bantuan():
             f.write(jenis_bantuan)
           continue
       else: break  
+  with open('list_hulur.txt','a') as f:
+        f.write('''
+               ''')
   print('\n','Maklumat dikemaskinikan ke dalam sistem kami.')
   print('Permohonan sedang dijalankan. Sila tunggu sehingga pihak kami balas keputusan permohonan anda.')
   print('Izinkan saya menyatakan kesyukuran saya kepada tuan/puan sekali lagi')
